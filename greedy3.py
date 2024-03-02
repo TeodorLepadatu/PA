@@ -1,0 +1,9 @@
+N=int(input())
+d=[int(x) for x in input().split()]
+t=[int(x) for x in input().split()]
+a={t[i]: (i,d[i]) for i in range(0,N)}
+t=sorted(a)
+sol=[]
+timp=0
+it=0
+ic=0
